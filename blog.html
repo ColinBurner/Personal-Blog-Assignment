@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog entries</title>
+    <link rel="stylesheet" href="./assets/css/blog.css">
+    <link rel="stylesheet2" href="./assets/css/styles.css">
+    
+</head>
+<body>
+    <div class="container dark">
+        <div class="menu">
+
+    <div class="row toggle">
+        <div class="col">
+          <h2>DARK MODE</h2>
+        </div>
+        <label class="switch col">
+          <input type="checkbox" id="theme-switcher">
+          <span class="slider round"></span>
+        </label>
+        <div class="col">
+          <h3>LIGHT MODE</h3>
+        </div>
+      </div>
+
+    <main>
+        <section>
+            <h1></h1>
+            <p></p>
+        </section>
+        
+    </main>
+
+    <footer class="footer">
+        <a href="https://colinburner.github.io/Colin-Taaffe-Portfolio/">Click here for my portfolio! 🔥</a>
+    </footer>
+
+        <script>
+        const name = localStorage.getItem('name');
+        const email = localStorage.getItem('email');
+
+        document.getElementById('displayName').textContent = name;
+        document.getElementById('displayEmail').textContent = email;
+        </script>
+        <script src="./assets/js/blog.js"></script>
+        <script src="./assets/js/logic.js"></script>
+    </body>
+</html>
