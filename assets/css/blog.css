@@ -122,16 +122,21 @@ body.light-mode #blogPostsContainer .post {
 }
 
 .light-mode footer {
-  background: linear-gradient(-90deg, rgba(3,36,0,1) 0%, rgba(13,231,34,1) 50%, rgba(0,255,76,1) 100%);
+  background: linear-gradient(-90deg, rgba(3,36,0,1) 0%, rgba(13,231,34,1) 50%, rgba(11,224,76,1) 100%);
 }
 
 .light-mode header {
-  background: linear-gradient(-90deg, rgba(3,36,0,1) 0%, rgba(13,231,34,1) 50%, rgba(0,255,76,1) 100%);
+  background: linear-gradient(-90deg, rgba(3,36,0,1) 0%, rgba(13,231,34,1) 50%, rgb(11, 224, 75) 100%);
   color: black;
 }
 
+.light-mode .go-back-button {
+  background: radial-gradient(circle, rgba(251,151,63,1) 0%, rgba(70,252,73,1) 100%);
+  color: white;
+}
+
 .dark-mode .go-back-button {
-  background: linear-gradient(-90deg, rgba(3,36,0,1) 0%, rgba(13,231,34,1) 50%, rgba(0,255,76,1) 100%);
+  background: radial-gradient(circle, rgba(251,151,63,1) 0%, rgba(70,252,73,1) 100%);
   color: white;
 }
 
@@ -170,16 +175,30 @@ a:hover {
 
 .go-back-button {
   margin-left: 65%;
-  border-radius: 40%;
-  height: 75px;
+  border-radius: 30%;
+  height: 80px;
+  width: 200px;
   background: linear-gradient(90deg, rgba(3,36,0,1) 0%, rgba(13,231,34,1) 50%, rgba(0,255,76,1) 100%);
-  color: black;
+  color: white;
   text-shadow: 2px 2px 3px black;
   cursor: pointer;
 }
 
 .go-back-button:hover {
   color: rgb(5, 177, 14);
+}
+
+.post-content {
+    display: flex; 
+    flex-direction: column;
+    overflow: hidden; 
+    height: 100%;
+}
+
+.post-content h2, .post-content h3, .post-content p {
+  margin: 5; 
+  padding: 10px 30px 10px 10px; 
+  word-wrap: break-word;
 }
 
 #blogPostsContainer {
@@ -191,5 +210,5 @@ a:hover {
     margin: 10px 0;
     padding: 10px;
     background: rgb(36, 34, 34);
-    border-radius: 5px;
+    border-radius: 50px;
 }

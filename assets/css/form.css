@@ -7,7 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #6b6b6b;
+    background-color: rgb(20, 20, 20);
     padding: 20px;
 }
 
@@ -18,7 +18,7 @@ button {
     font-size: 24px;
     background-color: black;
     color: white;
-    text-shadow: 2px 2px 3px orangered;
+    text-shadow: 2px 2px 3px lime;
   }
   
 input {
@@ -26,7 +26,7 @@ input {
   }
 
 header {
-    background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(231,93,13,1) 50%, rgba(255,145,0,1) 100%);
+    background: linear-gradient(-90deg, rgba(3,36,0,1) 0%, rgba(13,231,34,1) 50%, rgba(0,255,76,1) 100%);
     color: #fff;
     padding: 10px 0;
     margin: 0 15px;
@@ -36,14 +36,14 @@ header {
     border: black;
     border-radius: 20px;
     box-shadow: 12px 12px 8px 5px black;
+    text-shadow: 3px 3px 3px black;
 }
 
 main {
     max-width: 60%;
     margin: 60px auto;
     padding: 20px;
-    background: linear-gradient(-90deg, rgba(36,0,0,1) 0%, rgba(231,93,13,1) 50%, rgba(255,145,0,1) 100%);
-    text-shadow: 2 2 6 orangered;
+    background: linear-gradient(-90deg, rgba(3,36,0,1) 0%, rgba(13,231,34,1) 50%, rgba(0,255,76,1) 100%);
     border: black;
     border-radius: 20px;
     box-shadow: 12px 12px 8px 5px black;
@@ -61,14 +61,16 @@ h1 {
 h2 {
     color: black;
     font-size: 30px;
-    text-shadow: 2px 2px 3px orangered;
+    text-shadow: 2px 2px 3px white;
+    text-decoration: underline;
+    padding-bottom: 10px;
     font-family: monospace;
 }
 
 label {
     color: black;
     font-size: 18px;
-    text-shadow: 3px 3px 3px orangered;
+    text-shadow: 3px 3px 3px white;
     text-decoration: underline;
     font-family: monospace;
 }
