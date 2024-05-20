@@ -18,6 +18,8 @@ header {
   color: white;
 }
 
+/*used flex-grow to make the blog boxes grow if there is excess input that normally wouldn't have fit in the box*/
+/*overflow-y makes it so the text won't overflow on the y axis*/
 main {
   flex-grow: 1;
   padding: 20px;
@@ -82,6 +84,7 @@ footer {
   flex-grow: 1;
 }
 
+/*this entire section through line 142 styles the dark/light mode button and what it does with certain elements*/
 .dark-mode {
   background-color: black;
   color: white;
@@ -169,6 +172,7 @@ a:hover {
   font-size: 50px;
 }
 
+/*this class makes it so the emoji becomes more opaque when hovered over*/
 .emoji-button:hover {
   opacity: 0.7; 
 }
@@ -184,6 +188,7 @@ a:hover {
   cursor: pointer;
 }
 
+/*this class makes the go back button text turn green upon hover*/
 .go-back-button:hover {
   color: rgb(5, 177, 14);
 }

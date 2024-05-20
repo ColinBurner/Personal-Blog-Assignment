@@ -21,10 +21,12 @@ button {
     text-shadow: 2px 2px 3px lime;
   }
   
+  /*this keeps the input boxes white*/
 input {
   background-color: #f7f7f7;
   }
 
+  /*just one of many sections a linear gradient was used to colorfully style a section of the page*/
 header {
     background: linear-gradient(-90deg, rgba(3,36,0,1) 0%, rgba(13,231,34,1) 50%, rgba(0,255,76,1) 100%);
     color: #fff;
